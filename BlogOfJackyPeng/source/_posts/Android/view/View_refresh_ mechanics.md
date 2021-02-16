@@ -21,7 +21,7 @@ share: true
 
 <!--![](view刷新机制_01.png)-->
 
-<img src="/images/View/View_refresh_ mechanics.png">
+<img src="/images/view/View_refresh_mechanics.png">
 
 **问：App中的掉帧是什么原因？**
 
