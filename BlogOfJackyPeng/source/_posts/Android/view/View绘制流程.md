@@ -33,6 +33,7 @@ share: true
                 return renderNode; // no work needed
             }
 ```
+
 对于tv_01来说，这段代码就直接return，因为它自己的缓存是valid的。
 
 对于tv_02来说，会跳过，因为setText()会invalidate(),`PFLAG_INVALIDATED`会生效，在tv_02的parent调用`draw(canvas,parent,drawingTime)`时，会走这段流程
